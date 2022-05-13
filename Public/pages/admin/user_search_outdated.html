@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>search</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../../styles/search.css" />
+    <script
+      src="https://kit.fontawesome.com/2028cdce13.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid banner">
+      <div class="row">
+        <div class="col-md-12 navbar-color">
+          <nav class="navbar navbar-md navbar-color">
+            <div class="navbar-brand">UofT course reviews</div>
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="admin_index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="admin_search.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="user_search.html">Users</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="admin_profile.html">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/admin/logout">Logout</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="container mb-3 mt-3">
+        <table
+          class="table table-striped table-bordered mytable"
+          style="width: 100%"
+        >
+          <thead>
+            <tr>
+              <th>Delete user</th>
+              <th>UserID</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>
+                <button
+                  class="btn btn-secondary btn-sm btn-delete"
+                  type="submit"
+                  style="background-color: red"
+                  id="deleteUser"
+                >
+                  Delete
+                </button>
+              </td>
+              <td><a href="../user/user_profile.html">001</a></td>
+              <td>Mihir</td>
+              <td>Koka</td>
+            </tr>
+            <tr>
+              <td>
+                <button
+                  class="btn btn-secondary btn-sm btn-delete"
+                  type="submit"
+                  style="background-color: red"
+                  id="deleteCourse"
+                >
+                  Delete
+                </button>
+              </td>
+              <td>002</td>
+              <td>Arthur</td>
+              <td>Soenarto</td>
+            </tr>
+            <tr>
+              <td>
+                <button
+                  class="btn btn-secondary btn-sm btn-delete"
+                  type="submit"
+                  style="background-color: red"
+                  id="deleteCourse"
+                >
+                  Delete
+                </button>
+              </td>
+              <td>003</td>
+              <td>Yash</td>
+              <td>Agrawal</td>
+            </tr>
+            <tr>
+              <td>
+                <button
+                  class="btn btn-secondary btn-sm btn-delete"
+                  type="submit"
+                  style="background-color: red"
+                  id="deleteCourse"
+                >
+                  Delete
+                </button>
+              </td>
+              <td>004</td>
+              <td>Mingon</td>
+              <td>Song</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th>Delete user</th>
+              <th>UserID</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Courses</h4>
+            <ul>
+              <li><a href="admin_search.html">all courses</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Sign up today</h4>
+            <ul>
+              <li><a href="admin_profile.html">Profile</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Uoft Socials</h4>
+            <div class="social-links">
+              <a
+                href="https://twitter.com/UofT?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://www.facebook.com/universitytoronto/"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/uoft/?hl=en"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+    <script>
+      $(".mytable").DataTable();
+    </script>
+  </body>
+</html>

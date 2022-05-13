@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+/* navbar stuff starts here */
+.banner .navbar-color {
+  background-color: rgb(0, 42, 90) !important;
+}
+
+.banner .navbar-brand {
+  color: #fff !important;
+  font: size 22px;
+  font-weight: 700;
+  margin-left: 10%;
+}
+
+.banner .border-login {
+  border-radius: 1rem;
+}
+
+.banner .border-login .message_box {
+  display: none;
+}
+
+.banner .nav {
+  margin-right: 10%;
+}
+
+.banner .nav li a {
+  color: rgb(83, 144, 127);
+  font: size 1.4em;
+  font-weight: 200;
+}
+
+.banner .nav li a:hover {
+  color: rgb(1, 108, 238);
+}
+
+/* navbar stuff ends here  */
+
+.background_banner {
+  background: url("../assets/overlay.png"), url("../assets/uoft_back2.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

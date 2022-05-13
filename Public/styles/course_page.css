@@ -1,0 +1,144 @@
+/* course page stuff */
+
+.course_page{
+  background: url('../assets/overlay.png'), url('../assets/UofTFrontCampus.jpeg') no-repeat center center fixed;
+}
+
+.course_header{
+  border-radius: 25px;
+}
+
+.card{
+  border-radius: 25px; 
+}
+
+.course_white{
+  background: white;
+}
+
+.course_title{
+  font-size: 8em;
+}
+
+.course_form{
+  padding-left: 20px;
+}
+
+.course_sem{
+  position: absolute;
+  right: 10%;
+}
+
+.course_card_green{
+  background-color: rgb(208, 252, 208);
+}
+
+.course_card_red{
+  background-color: rgb(247, 199, 199);
+}
+
+.delete_button{
+  position: absolute;
+  right: 10%;
+}
+
+/* navbar stuff starts here */
+
+.banner .navbar-color {
+    background-color: rgb(0, 42, 90);
+  }
+  
+.banner .navbar-brand {
+  color: #fff;
+  font: size 22px;
+  font-weight: 700;
+  margin-left: 10%;
+}
+
+.banner .nav {
+  margin-right: 10%;
+}
+
+.banner .nav li a {
+  color: rgb(168, 173, 172);
+  font: size 1.4em;
+  font-weight: 200;
+}
+
+.banner .nav li a:hover {
+  color: rgb(1, 108, 238);
+}
+
+/* navbar stuff ends here  */
+
+/* CSS past this is for footer */
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: rgb(0, 42, 92);
+  padding: 50px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
