@@ -3,16 +3,6 @@
 To run after downloading/cloning the repo you need to run npm install i and npm install express.
 Then you run node server.js from the directory of the code and then go to localhost:3500 to view the page
 
-NOTE: We would like to Submit on April 7th for a 10% reduction in our grade.
-Final Submission Extension Screenshot Here: https://gyazo.com/a7aba28f576a63ebed33d8d8a2bfe72f
-
-We have a video about the progress we have made, our future intentions and our code choices, it is attached below:
-https://youtu.be/1UB3qyp9o0s
-
-We made this video so it will be easier for the TAs to mark our work.
-
-We hope you like it 😄
-
 ## Heroku Link
 https://secure-mesa-10679.herokuapp.com/
 
