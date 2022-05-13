@@ -129,10 +129,3 @@ The Admin router has additional routes in order to fetch 100 courses (any more w
 
 The User router has a call that builds a course user page with the route "/course/:id", there is a call that lets you view course info given a course id (get method). Additionally, there are also register and login routes that lets the user login and then sorts the user by its role and then redirects them to their appropriate viewing page. There is an all route that lets you view all users. There is a "/user/id/:id" route that also returns an html page given a user and its id. There is also a post route that lets you post a review.
 
-## CSC309H1 Winter'22 Group Project Team23
-
-- Arthur Soenarto
-- Mihir Koka
-- Yash Agarwal
-
-![Pass](/assets/student.jpg)
